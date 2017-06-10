@@ -19,12 +19,13 @@ public class BubbleSort {
      * @param array Array to be operated
      * @param <E> Data type of array
      */
-    private static <E extends Comparable<E>> void sortingFacade(final E[] array) {
+    public static <E extends Comparable<E>> E[] sortingFacade(final E[] array) {
         System.out.println("Before sorting");
         printArray(array);
         sortArray(array);
         System.out.println("After sorting");
         printArray(array);
+        return array;
     }
 
 
@@ -32,7 +33,7 @@ public class BubbleSort {
      * Utility method to print array of size n
      * @param array Array to be printed
      */
-    private static <E extends Comparable<E>> void printArray(final E[] array) {
+    public static <E extends Comparable<E>> void printArray(final E[] array) {
         for (E anArray : array) {
             System.out.print(anArray + " ");
         }
@@ -47,7 +48,7 @@ public class BubbleSort {
      * @param array Array to be sorted
      */
 
-    private static <E extends Comparable<E>> void sortArray(final E[] array) {
+    public static <E extends Comparable<E>> E[] sortArray(final E[] array) {
         int size = array.length;
         int compareCount = 0;
         int swapCount = 0;
@@ -65,6 +66,7 @@ public class BubbleSort {
         }
         System.out.println("compareCount = " + compareCount);
         System.out.println("swapCount = " + swapCount);
+        return array;
     }
 
 }
