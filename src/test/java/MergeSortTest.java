@@ -1,3 +1,4 @@
+import ds.sort.MergeSort;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Test class for MergeSort.java
+ * Test class for ds.sort.MergeSort.java
  * Created by Anirudha on 16-06-2017.
  */
 public class MergeSortTest {

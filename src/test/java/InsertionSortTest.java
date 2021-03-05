@@ -1,9 +1,10 @@
+import ds.sort.InsertionSort;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * Test class for InsertionSort.java
+ * Test class for ds.sort.InsertionSort.java
  * Created by Anirudha on 12-06-2017.
  */
 public class InsertionSortTest {

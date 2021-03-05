@@ -1,9 +1,10 @@
+import ds.sort.BubbleSort;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * Test class for BubbleSort.java
+ * Test class for ds.sort.BubbleSort.java
  * Created by Anirudha on 11-06-2017.
  */
 public class BubbleSortTest {

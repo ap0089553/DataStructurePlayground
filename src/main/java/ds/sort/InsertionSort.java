@@ -1,3 +1,5 @@
+package ds.sort;
+
 /**
  * Java program for implementation of Insertion sort
  * Created by Anirudha on 11-06-2017.

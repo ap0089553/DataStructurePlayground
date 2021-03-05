@@ -1,3 +1,4 @@
+import ds.sort.QuickSort;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -8,7 +9,7 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 /**
- * Test class for QuickSort.java
+ * Test class for ds.sort.QuickSort.java
  * Created by Anirudha on 18-06-2017.
  */
 public class QuickSortTest {

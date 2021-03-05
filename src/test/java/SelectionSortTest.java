@@ -1,9 +1,10 @@
+import ds.sort.SelectionSort;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * Test class for SelectionSort.java
+ * Test class for ds.sort.SelectionSort.java
  * Created by Anirudha on 11-06-2017.
  */
 public class SelectionSortTest {
